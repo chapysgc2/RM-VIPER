@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA9846192BD9BA1B00C2B4C0 /* ListCharacterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9846182BD9BA1B00C2B4C0 /* ListCharacterEntity.swift */; };
+		BA98461B2BD9BBAB00C2B4C0 /* ListCharacterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98461A2BD9BBAB00C2B4C0 /* ListCharacterInteractor.swift */; };
+		BA98461D2BD9BD5800C2B4C0 /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98461C2BD9BD5800C2B4C0 /* CharacterResponse.swift */; };
 		BAA3B4A02BD8740B0085DF7C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3B49F2BD8740B0085DF7C /* AppDelegate.swift */; };
 		BAA3B4A22BD8740B0085DF7C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3B4A12BD8740B0085DF7C /* SceneDelegate.swift */; };
 		BAA3B4A42BD8740B0085DF7C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3B4A32BD8740B0085DF7C /* ViewController.swift */; };
@@ -37,6 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA9846182BD9BA1B00C2B4C0 /* ListCharacterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharacterEntity.swift; sourceTree = "<group>"; };
+		BA98461A2BD9BBAB00C2B4C0 /* ListCharacterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharacterInteractor.swift; sourceTree = "<group>"; };
+		BA98461C2BD9BD5800C2B4C0 /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
 		BAA3B49C2BD8740B0085DF7C /* RM-VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RM-VIPER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA3B49F2BD8740B0085DF7C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAA3B4A12BD8740B0085DF7C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +84,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA9846122BD9B9BF00C2B4C0 /* ListCharacter */ = {
+			isa = PBXGroup;
+			children = (
+				BA9846172BD9B9F600C2B4C0 /* Router */,
+				BA9846162BD9B9F000C2B4C0 /* Entity */,
+				BA9846152BD9B9E900C2B4C0 /* Presenter */,
+				BA9846142BD9B9DF00C2B4C0 /* Interactor */,
+				BA9846132BD9B9D800C2B4C0 /* View */,
+			);
+			path = ListCharacter;
+			sourceTree = "<group>";
+		};
+		BA9846132BD9B9D800C2B4C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA9846142BD9B9DF00C2B4C0 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				BA98461A2BD9BBAB00C2B4C0 /* ListCharacterInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BA9846152BD9B9E900C2B4C0 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		BA9846162BD9B9F000C2B4C0 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				BA9846182BD9BA1B00C2B4C0 /* ListCharacterEntity.swift */,
+				BA98461C2BD9BD5800C2B4C0 /* CharacterResponse.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		BA9846172BD9B9F600C2B4C0 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		BAA3B4932BD8740B0085DF7C = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +157,7 @@
 		BAA3B49E2BD8740B0085DF7C /* RM-VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				BA9846122BD9B9BF00C2B4C0 /* ListCharacter */,
 				BAA3B49F2BD8740B0085DF7C /* AppDelegate.swift */,
 				BAA3B4A12BD8740B0085DF7C /* SceneDelegate.swift */,
 				BAA3B4A32BD8740B0085DF7C /* ViewController.swift */,
@@ -261,7 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA98461D2BD9BD5800C2B4C0 /* CharacterResponse.swift in Sources */,
 				BAA3B4A42BD8740B0085DF7C /* ViewController.swift in Sources */,
+				BA9846192BD9BA1B00C2B4C0 /* ListCharacterEntity.swift in Sources */,
+				BA98461B2BD9BBAB00C2B4C0 /* ListCharacterInteractor.swift in Sources */,
 				BAA3B4AA2BD8740B0085DF7C /* RM_VIPER.xcdatamodeld in Sources */,
 				BAA3B4A02BD8740B0085DF7C /* AppDelegate.swift in Sources */,
 				BAA3B4A22BD8740B0085DF7C /* SceneDelegate.swift in Sources */,
