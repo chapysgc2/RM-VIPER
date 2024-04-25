@@ -13,7 +13,7 @@ protocol ListCharacterUI : AnyObject {
 }
 
 
-class ListCharacterPresenter {
+class ListCharacterPresenter{
     
     // Referencia débil a la vista que implementa el protocolo listCharacterUI
     var ui : ListCharacterUI?
