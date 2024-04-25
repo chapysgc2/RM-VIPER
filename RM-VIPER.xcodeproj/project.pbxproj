@@ -20,6 +20,7 @@
 		BAA3B4BA2BD8740D0085DF7C /* RM_VIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3B4B92BD8740D0085DF7C /* RM_VIPERTests.swift */; };
 		BAA3B4C42BD8740D0085DF7C /* RM_VIPERUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3B4C32BD8740D0085DF7C /* RM_VIPERUITests.swift */; };
 		BAA3B4C62BD8740D0085DF7C /* RM_VIPERUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA3B4C52BD8740D0085DF7C /* RM_VIPERUITestsLaunchTests.swift */; };
+		BAEB06EA2BDAD07500BFE8F0 /* ListCharacterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAEB06E92BDAD07500BFE8F0 /* ListCharacterPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		BAA3B4BF2BD8740D0085DF7C /* RM-VIPERUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RM-VIPERUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAA3B4C32BD8740D0085DF7C /* RM_VIPERUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_VIPERUITests.swift; sourceTree = "<group>"; };
 		BAA3B4C52BD8740D0085DF7C /* RM_VIPERUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_VIPERUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BAEB06E92BDAD07500BFE8F0 /* ListCharacterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCharacterPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		BA9846152BD9B9E900C2B4C0 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				BAEB06E92BDAD07500BFE8F0 /* ListCharacterPresenter.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAEB06EA2BDAD07500BFE8F0 /* ListCharacterPresenter.swift in Sources */,
 				BA98461D2BD9BD5800C2B4C0 /* CharacterResponse.swift in Sources */,
 				BAA3B4A42BD8740B0085DF7C /* ViewController.swift in Sources */,
 				BA9846192BD9BA1B00C2B4C0 /* ListCharacterEntity.swift in Sources */,
